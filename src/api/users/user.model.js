@@ -22,17 +22,7 @@ const userSchema = mongoose.Schema(
         timestamps: true,
     }
 );
-// const userSchema = new mongoose.Schema(
-//     {
-//     name:{
-//         type: String,
-       
-//     },
-//     {
-//       timestamps: true,  
-//     }
-    
-// );
+
 
 //Exportamos el esquema
 const User = mongoose.model('users', userSchema);

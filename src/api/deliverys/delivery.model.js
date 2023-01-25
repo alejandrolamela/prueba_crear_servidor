@@ -17,7 +17,13 @@ const deliverySchema = new mongoose.Schema({
     suggestion:{
         type:String,
     }
-});
+    
+    
+},
+{
+    timestamps: true,
+}
+);
 
 const Delivery = mongoose.model('deliverys', deliverySchema);
 module.exports = Delivery;
